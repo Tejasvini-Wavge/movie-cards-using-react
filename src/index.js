@@ -6,22 +6,20 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
     <>
-        <div className="movie-cards-container">
-            <MovieCard
-                title="BATHRINATH KI DULHAN"
-                
-                url="https://th.bing.com/th/id/OIP.2yK7uGlzwXnUQxlU2o0SWgAAAA?w=115&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
-            />
-            <MovieCard
-                title="TAMASHA"
-               
-                url="https://th.bing.com/th/id/OIP.L1lfsv8VYuLpj7UB0FY00QHaKu?w=115&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
-            />
-            <MovieCard
-                title="DHADAK"
-               
-                url="https://th.bing.com/th/id/OIP.LditLNNgSzwyK25VC2zFkgAAAA?w=149&h=187&c=7&r=0&o=5&dpr=1.3&pid=1.7"
-            />
+        <div class="container">
+        <div class="poster">
+            <a href="https://en.wikipedia.org/wiki/Laapataa_Ladies" target="_blank"><img src="https://tse2.mm.bing.net/th?id=OIP.wMNP5aqo0aFS2hOlcryyNgHaJQ&pid=Api&P=0&h=220" class="img"/></a>
+            <h2 class="name">Laapataa Ladies</h2>
+            
         </div>
+        <div class="poster">
+            <a href="https://en.wikipedia.org/wiki/Yodha_(2024_film)"><img src="https://tse3.mm.bing.net/th?id=OIP.EURv-D17MQaWZ1WcBz5czgHaJZ&pid=Api&P=0&h=220" class="img"/></a>
+            <h2 class="name">Yodha</h2>
+        </div>
+        <div class="poster">
+            <a href="https://en.wikipedia.org/wiki/Sita_Ramam"><img src="https://tse3.mm.bing.net/th?id=OIP.R5z4qFjTFCDzmrxvbwaI6AHaKX&pid=Api&P=0&h=220" class="img"/></a>
+            <h2 class="name">Sita Raman</h2>
+        </div>
+    </div>
     </>
 )
